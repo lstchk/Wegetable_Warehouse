@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #CBDBCB; -fx-border-color: #060906;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Forms.UserAllOrderForm.UserAllOrderFormController">
+   <children>
+      <Button fx:id="returnButton" layoutX="714.0" layoutY="515.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="48.0" style="-fx-background-color: #CBDBCB;-fx-background-image: url('/sample/Forms/assets/return.png')" />
+      <TableView fx:id="table" layoutX="23.0" layoutY="27.0" prefHeight="506.0" prefWidth="636.0">
+         <columns>
+            <TableColumn fx:id="productCol" prefWidth="262.0" text="Товар" />
+            <TableColumn fx:id="quantityCol" minWidth="6.0" prefWidth="187.0" text="Количество" />
+            <TableColumn fx:id="priceCol" minWidth="0.0" prefWidth="186.0" text="Цена" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

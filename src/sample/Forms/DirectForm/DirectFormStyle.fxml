@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #CBDBCB; -fx-border-color: #060906;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Forms.DirectForm.DirectFormController">
+   <children>
+      <Button fx:id="addEmployeeButton" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #060906; -fx-background-color: #CBDBCB;" text="  Добавить &#10;сотрудника">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="addClientButton" layoutX="200.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #060906; -fx-background-color: #CBDBCB;" text="Добавить клиента">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="changeEmployeeButton" layoutY="100.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #060906; -fx-background-color: #CBDBCB;" text="Изменить данные  &#10;     о сотрудниках">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="changeClientButton" layoutX="200.0" layoutY="100.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #060906; -fx-background-color: #CBDBCB;" text="Изменить данные &#10;        о клиентах">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="addProductButton" layoutY="200.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #060906; -fx-background-color: #CBDBCB;" text="Добавить товар">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="showProductButton" layoutX="200.0" layoutY="200.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #060906; -fx-background-color: #CBDBCB;" text="Просмотреть товар">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="addProductTypeButton" layoutY="300.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #060906; -fx-background-color: #CBDBCB;" text=" Добавить &#10;категорию &#10;  товаров">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="showOrdersButton" layoutX="200.0" layoutY="300.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #060906; -fx-background-color: #CBDBCB;" text="Посмотреть заказы">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="addRefrigeratorButton" layoutY="400.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #060906; -fx-background-color: #CBDBCB;" text="      Добавить&#10; рефрижератор">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="addRackButton" layoutX="200.0" layoutY="400.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #060906; -fx-background-color: #CBDBCB;" text="Добавить стеллаж">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="addRackTypeButton" layoutX="200.0" layoutY="500.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #060906; -fx-background-color: #CBDBCB;" text="Добавить категорию&#10;           стелажей">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="logOutButton" layoutX="400.0" layoutY="500.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #060906; -fx-background-color: #CBDBCB;" text="Выход">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="fioLabel" layoutX="472.0" layoutY="27.0" text="Label">
+         <font>
+            <Font name="Cambria" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="phoneLabel" layoutX="472.0" layoutY="128.0" text="Label">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="emailLabel" layoutX="472.0" layoutY="100.0" text="Label">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="loginLabel" layoutX="472.0" layoutY="68.0" text="Label">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="exitButton" layoutX="713.0" layoutY="538.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="48.0" style="-fx-background-color: #CBDBCB; -fx-background-image: url('/sample/Forms/assets/exit.png');" />
+      <Button fx:id="showRefrigeratorsButton" layoutY="500.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #060906; -fx-background-color: #CBDBCB;" text="     Посмотреть&#10; рефрижераторы">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="deleteButton" layoutX="400.0" layoutY="400.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #060906; -fx-background-color: #CBDBCB;" text="Удаление имущества">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

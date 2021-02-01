@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="800" maxWidth="600" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #CBDBCB; -fx-border-color: #060906;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Forms.DeleteForm.DeleteFormController">
+   <children>
+      <Button fx:id="returnButton" layoutX="720.0" layoutY="527.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="48.0" style="-fx-background-color: #CBDBCB; -fx-background-image: url('/sample/Forms/assets/return.png');" />
+      <ComboBox fx:id="typeBox" layoutX="52.0" layoutY="42.0" prefHeight="25.0" prefWidth="397.0" promptText="Категория" style="-fx-background-color: #CBDBCB; -fx-border-color: #060906;" />
+      <ComboBox fx:id="objectBox" layoutX="52.0" layoutY="92.0" prefHeight="25.0" prefWidth="397.0" promptText="Предмет" style="-fx-background-color: #CBDBCB; -fx-border-color: #060906;" />
+      <Button fx:id="deleteButton" layoutX="220.0" layoutY="141.0" mnemonicParsing="false" style="-fx-background-color: #CBDBCB; -fx-border-color: #060906;" text="Удалить" />
+      <Button fx:id="typeButton" layoutX="483.0" layoutY="43.0" mnemonicParsing="false" style="-fx-background-color: #CBDBCB; -fx-border-color: #060906;" text="Выбрать" />
+   </children>
+</AnchorPane>

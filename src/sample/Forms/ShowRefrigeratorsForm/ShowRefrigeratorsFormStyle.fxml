@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="800" maxWidth="600" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #CBDBCB; -fx-border-color: #060906;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Forms.ShowRefrigeratorsForm.ShowRefrigeratorsFormController">
+   <children>
+      <TableView fx:id="table" layoutX="7.0" layoutY="7.0" prefHeight="506.0" prefWidth="793.0">
+         <columns>
+            <TableColumn fx:id="brandCol" minWidth="9.0" prefWidth="100.0" text="Марка" />
+            <TableColumn fx:id="vinCol" prefWidth="159.0" text="VIN" />
+            <TableColumn fx:id="regCol" minWidth="0.0" prefWidth="103.0" text="Регистрационный номер" />
+            <TableColumn fx:id="toCol" minWidth="0.0" prefWidth="132.0" text="Дата последнего ТО" />
+            <TableColumn fx:id="noteCol" minWidth="0.0" prefWidth="298.0" text="Прмечание" />
+         </columns>
+      </TableView>
+      <Button fx:id="returnButton" layoutX="725.0" layoutY="538.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="48.0" style="-fx-background-color: #CBDBCB; -fx-background-image: url('/sample/Forms/assets/return.png');" />
+   </children>
+</AnchorPane>
